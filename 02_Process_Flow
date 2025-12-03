@@ -1,0 +1,45 @@
+SAP QM – Inspection Lot Creation & Processing (Process Flow)
+1. Start
+Purchase Order is created.
+
+2. Goods Receipt (MIGO)
+User performs GR for PO.
+System posts material into Quality inspection stock.
+
+3. Automatic Inspection Lot Creation
+After GR → SAP generates an inspection lot with status "REL".
+
+4. Inspection Lot Processing
+User opens lot in QA32:
+
+Check quantities
+
+Check inspection characteristics
+
+Assign MICs (if applicable)
+
+5. Results Recording (QE51N)
+Inspector enters measured values:
+
+Quantitative values
+
+Qualitative results
+
+Defects (if any)
+
+6. Usage Decision (QA11)
+UD codes:
+
+A – Accepted
+
+R – Rejected
+
+C – Conditionally Accepted
+
+Stock is automatically posted accordingly:
+
+Accepted → Unrestricted
+
+Rejected → Blocked/Scrap
+
+7. End of Process
