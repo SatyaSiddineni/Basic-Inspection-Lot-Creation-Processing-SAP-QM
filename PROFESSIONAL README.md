@@ -1,0 +1,51 @@
+# Basic Inspection Lot Creation & Processing (SAP QM)
+
+## 📌 Overview
+This project demonstrates the complete end-to-end Quality Management process in SAP S/4HANA for creating and processing an **Inspection Lot**.  
+It includes master data setup, inspection plan preparation, Goods Receipt, results recording, usage decision, and final stock posting.
+
+This is a beginner-friendly SAP QM project and serves as the foundation for advanced QM scenarios.
+
+---
+
+## 🎯 Objectives
+- Configure and activate relevant QM settings for a material
+- Create Master Inspection Characteristics (MICs)
+- Build an inspection plan with assigned characteristics
+- Trigger an inspection lot via Goods Receipt (GR)
+- Perform results recording (RR)
+- Make a Usage Decision (UD)
+- Move stock to unrestricted / blocked based on quality decision
+
+---
+
+## 🧱 Project Scope
+### **1. Master Data**
+- Material Master (QM View)
+- Inspection Types (01 & 04)
+- MICs (Quantitative & Qualitative)
+- Sampling Procedure (optional)
+- Inspection Plan / Task List
+
+### **2. Transactions Covered**
+- **MM01** – Material Creation  
+- **QS21** – MIC Creation  
+- **QP01** – Inspection Plan  
+- **ME21N/MIGO** – PO & Goods Receipt  
+- **QA32/QE51N** – Results Recording  
+- **QA11** – Usage Decision  
+
+---
+
+## 🔄 Process Flow Diagram (Mermaid)
+```mermaid
+flowchart TD
+    A[Material Master Creation (MM01)] --> B[Activate Inspection Type (01/04)]
+    B --> C[Create MICs (QS21)]
+    C --> D[Create Inspection Plan (QP01)]
+    D --> E[Create Purchase Order / Production Order]
+    E --> F[Goods Receipt (MIGO)]
+    F --> G[Inspection Lot Automatically Created]
+    G --> H[Record Results (QE51N)]
+    H --> I[Usage Decision (QA11)]
+    I --> J[Stock Posting to Unrestricted / Blocked]
