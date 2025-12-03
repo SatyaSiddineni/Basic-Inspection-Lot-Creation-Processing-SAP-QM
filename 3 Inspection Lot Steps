@@ -1,0 +1,90 @@
+Detailed Steps for Inspection Lot Creation & Processing
+Step 1: Material Master Setup (MM02)
+Go to MM02
+
+Select QM View
+
+Activate Inspection Type 01 – Goods Receipt
+
+Tick Post to Inspection Stock
+
+Save
+
+Step 2: Perform Goods Receipt (MIGO)
+Go to MIGO
+
+Choose: Goods Receipt → Purchase Order
+
+Enter PO number
+
+Enter quantity and storage location
+
+Post the document
+
+GR is created and inspection stock is updated
+
+Step 3: Check Inspection Lot (QA32)
+Go to QA32
+
+Enter:
+
+Material
+
+Plant
+
+Date Range
+
+Execute
+
+The inspection lot will appear
+
+Open the lot to check:
+
+Quantities
+
+Characteristics
+
+Status
+
+Sample size
+
+Step 4: Record Results (QE51N)
+Go to QE51N
+
+Enter Inspection Lot Number
+
+Enter values for each characteristic
+
+Save results
+
+System updates inspection lot status
+
+Step 5: Usage Decision (QA11)
+Go to QA11
+
+Enter Inspection Lot
+
+Select UD Code:
+
+A1 – Accepted
+
+R1 – Rejected
+
+C1 – Conditionally Accepted
+
+Save
+
+SAP posts the material to:
+
+Unrestricted
+
+Blocked
+
+Scrap
+
+Step 6: Stock Posting
+Automatically happens after UD:
+
+Accepted → Unrestricted
+
+Rejected → Blocked / Scrap
