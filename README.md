@@ -47,4 +47,4 @@ This project demonstrates the complete end‑to‑end process of Inspection Lot 
         
 🙌 Author
 
-Satya Siddineni SAP Functional Consultant
+Satyanarayana Siddineni SAP Functional Consultant
