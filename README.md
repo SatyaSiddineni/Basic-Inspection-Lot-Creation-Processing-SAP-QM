@@ -31,17 +31,6 @@ A company procures raw materials from a vendor. Upon receiving the material, the
 ✅ 4. T‑Codes Used in This Project
 
 ✅ 5. Folder Structure
-Code
-        📁 Basic-Inspection-Lot-Creation-Processing-SAP-QM
-        │
-        ├── 📁 01_Master_Data
-        ├── 📁 02_Process_Flow
-        ├── 📁 03_Inspection_Lot_Creation
-        ├── 📁 04_Results_Recording
-        ├── 📁 05_Usage_Decision
-        ├── 📁 06_Test_Data
-        └── README.md
-
 
 ✅ 6. Key Learnings
 
