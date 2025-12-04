@@ -27,12 +27,14 @@ A company procures raw materials from a vendor. Upon receiving the material, the
 
 
 ✅ 3. Process Flow Diagram
-             
+
+        Provides the end‑to‑end process flow diagram explaining how the inspection lot is created and processed during the procurement cycle.
+        
 ✅ 4. T‑Codes Used in This Project
 
-✅ 5. Folder Structure
+        Lists all SAP transaction codes relevant to inspection lot creation, results recording, and usage decision.
 
-✅ 6. Key Learnings
+✅ 5. Key Learnings
 
         How SAP QM integrates with MM during procurement
         How inspection lots are automatically created during GR
