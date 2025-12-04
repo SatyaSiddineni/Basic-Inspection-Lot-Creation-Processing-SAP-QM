@@ -4,16 +4,17 @@ This project demonstrates the complete end‑to‑end process of Inspection Lot 
 
 
 1. Project Overview
-This repository provides a practical, step‑by‑step demonstration of how an organization performs incoming inspection (Inspection Type 01) for procured materials. It includes:
 
-        Master data preparation
-        Purchase order creation
-        Goods receipt triggering inspection lot
-        Inspection lot processing
-        Results recording
-        Usage decision and stock posting
+        This repository provides a practical, step‑by‑step demonstration of how an organization performs incoming inspection (Inspection Type 01) for procured materials. It includes:
 
-This scenario is widely used in manufacturing, pharmaceuticals, automotive, FMCG, and other industries where material quality is critical.
+                Master data preparation
+                Purchase order creation
+                Goods receipt triggering inspection lot
+                Inspection lot processing
+                Results recording
+                Usage decision and stock posting
+
+        This scenario is widely used in manufacturing, pharmaceuticals, automotive, FMCG, and other industries where material quality is critical.
 
 
 2. Business Scenario
